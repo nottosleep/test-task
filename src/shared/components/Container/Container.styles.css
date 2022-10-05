@@ -1,0 +1,16 @@
+@import '../../../constants/styles/layout.css';
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    max-width: var(--container-width);
+}
+
+.container-inner {
+    overflow-x: auto;
+}
+
+.container-content-wrapper {
+    display: flex;
+}

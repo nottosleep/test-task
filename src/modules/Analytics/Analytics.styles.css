@@ -1,0 +1,17 @@
+@import '../../constants/styles/layout.css';
+
+.analytics-page {
+    margin-top: 37px;
+}
+
+.analytics-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+    width: var(--container-width);
+}
+
+.analytics-page-row {
+    display: flex;
+}

@@ -1,0 +1,70 @@
+{
+	"data": {
+		"deals": [
+			{
+				"id": "0",
+				"iconCode": "0",
+				"title": "Total Leads and Deals",
+				"count": "1600",
+				"sum": "132 000 999",
+				"symbol": "€",
+				"type": "summary"
+			},
+			{
+				"id": "1",
+				"iconCode": "1",
+				"title": "Won",
+				"count": "45",
+				"sum": "45 108 000",
+				"symbol": "€",
+				"type": "success"
+			},
+			{
+				"id": "2",
+				"iconCode": "2",
+				"title": "Lost",
+				"count": "15",
+				"sum": "24 000",
+				"symbol": "€",
+				"type": "failed"
+			},
+			{
+				"id": "3",
+				"iconCode": "3",
+				"title": "New leads",
+				"count": "115",
+				"type": "info"
+			}
+		],
+		"tasks": [
+			{
+				"id": "4",
+				"iconCode": "4",
+				"title": "Total tasks",
+				"count": "269",
+				"type": "summary"
+			},
+			{
+				"id": "5",
+				"iconCode": "5",
+				"title": "Completed tasks",
+				"count": "115",
+				"type": "success"
+			},
+			{
+				"id": "6",
+				"iconCode": "6",
+				"title": "Expired tasks",
+				"count": "45",
+				"type": "failed"
+			},
+			{
+				"id": "7",
+				"iconCode": "7",
+				"title": "No tasks",
+				"count": "10",
+				"type": "info"
+			}
+		]
+	}
+}

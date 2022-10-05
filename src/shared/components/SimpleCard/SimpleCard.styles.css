@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400,700&display=swap');
+
+.simple-card {
+    display: flex;
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0 0 2px #EEF4FE, 0 1px 2px #D0DAEB;
+    border-radius: 7px;
+    width: 294px;
+    min-width: 294px;
+    height: 90px;
+    margin: 0 16px 16px 0;
+}
+
+.simple-card:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.simple-card-avatar {
+    width: 56px;
+    height: 56px;
+}
+
+.simple-card-texts {
+    font-family: 'Lato', sans-serif;
+    color: #373737;
+}
+
+.simple-card-texts-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 56px;
+    margin: 3px 0 0 16px;
+}
+
+.simple-card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.simple-card-success-title {
+    color: #7AD744;
+}
+.simple-card-failed-title {
+    color: #F85C5C;
+}
+.simple-card-info-title {
+    color: #68C4FF;
+}
+.simple-card-summary-title {
+    color: #C37ADD;;
+}
+
+.simple-card-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.simple-card-subtitle-separator {
+    position: relative;
+    top: -1px;
+}
